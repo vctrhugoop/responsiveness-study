@@ -1,0 +1,44 @@
+header {
+  padding-block: 1rem;
+
+  background: var(--surface-color);
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & .menu {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      ul {
+        display: none;
+      }
+
+      & .avatar {
+        img {
+          width: 2.5rem;
+          height: 2.5rem;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    nav {
+      & .menu {
+        ul {
+          display: flex;
+          gap: 1rem;
+          font: var(--text-base);
+        }
+      }
+    }
+  }
+  
+}
