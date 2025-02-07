@@ -36,6 +36,17 @@
   }
 }
 
+@media screen and (min-width: 1023px) {
+  .about {
+    .profile {
+      img {
+        width: 11rem;
+        height: 11rem;
+      }
+    }
+  }
+  
+}
 
 @media screen and (min-width: 768px) {
   .about {
@@ -56,12 +67,6 @@
       p {
         width: 24rem;
       }
-
-      img {
-        width: 11rem;
-      height: 11rem;
-      }
     }
   }
-  
 }
